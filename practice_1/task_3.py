@@ -8,6 +8,9 @@ BMI = вес/рост**2
 weight = input()
 height = input()
 
+weight = int(weight)
+height = int(height)
 
-#Ваш кол
 
+print("Your BMI is {:.2f}".format(10000*weight/(height*height)))
+print(f"Your BMI is {10000*weight/(height*height):.2f}")
